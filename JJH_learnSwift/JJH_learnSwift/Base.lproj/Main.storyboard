@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Widget-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="JJHWidgetViewController" customModule="JJH_learnSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Widget" image="first" id="acW-dT-cKf"/>
+                    <navigationItem key="navigationItem" id="gNB-yP-r6i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1354" y="-404"/>
+        </scene>
+        <!--widget-->
+        <scene sceneID="OQn-zP-WqV">
+            <objects>
+                <navigationController title="widget" id="MlH-sL-vco" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="widget" image="tap_music_normal.png" selectedImage="tap_music_select.png" id="LCi-my-Kzf"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="jqP-CC-9vF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="uz7-YO-YXE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2jZ-Nu-mcw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="664" y="-393"/>
+        </scene>
+        <!--video-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="JJHVideoViewController" customModule="JJH_learnSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="video" image="second" id="cPa-gy-q4n"/>
+                    <navigationItem key="navigationItem" id="LiH-GL-WjS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1486" y="320"/>
+        </scene>
+        <!--MIne-->
+        <scene sceneID="4JZ-fl-E90">
+            <objects>
+                <tableViewController id="4CS-2m-ND4" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="lr5-p0-ie4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="OOy-Tq-1Oe">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OOy-Tq-1Oe" id="GkX-Yj-7et">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4CS-2m-ND4" id="fz3-1e-oLy"/>
+                            <outlet property="delegate" destination="4CS-2m-ND4" id="NjA-pi-II8"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="MIne" id="lv1-Ax-u2y"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Yt-66-589" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1444" y="1183"/>
+        </scene>
+        <!--mine-->
+        <scene sceneID="b1d-du-jus">
+            <objects>
+                <navigationController id="3wY-dy-pZd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="mine" image="tap_music_normal.png" selectedImage="tap_music_select.png" id="YoY-Fi-g3y"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1s0-IL-u9p">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4CS-2m-ND4" kind="relationship" relationship="rootViewController" id="dO5-39-x6g"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FGJ-4M-KF4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="664" y="1203"/>
+        </scene>
+        <!--video-->
+        <scene sceneID="ugb-VO-UzO">
+            <objects>
+                <navigationController title="video" id="NuW-RF-oo1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="video" image="tap_music_normal.png" selectedImage="tap_music_select.png" id="1O5-l8-otl"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="5X6-qr-olb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="rJC-zc-Y7i"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XTJ-0q-8IV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="676" y="327"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="MlH-sL-vco" kind="relationship" relationship="viewControllers" id="GQd-Jq-lAa"/>
+                        <segue destination="NuW-RF-oo1" kind="relationship" relationship="viewControllers" id="maj-Bm-Ymb"/>
+                        <segue destination="3wY-dy-pZd" kind="relationship" relationship="viewControllers" id="TOc-gy-2jo"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-248" y="20"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+        <image name="tap_music_normal.png" width="16" height="16"/>
+        <image name="tap_music_select.png" width="16" height="16"/>
+    </resources>
+</document>
