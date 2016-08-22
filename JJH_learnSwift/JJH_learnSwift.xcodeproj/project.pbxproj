@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0A4C5F1D5C1C8F00C89CA3 /* see you again.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA0A4C5E1D5C1C8F00C89CA3 /* see you again.mp3 */; };
+		FA965E3E1D5AD7C5007554EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA965E3D1D5AD7C5007554EF /* AppDelegate.swift */; };
+		FA965E451D5AD7C5007554EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA965E431D5AD7C5007554EF /* Main.storyboard */; };
+		FA965E471D5AD7C5007554EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA965E461D5AD7C5007554EF /* Assets.xcassets */; };
+		FA965E4A1D5AD7C5007554EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA965E481D5AD7C5007554EF /* LaunchScreen.storyboard */; };
+		FA965E551D5AD87A007554EF /* JJHWidgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA965E541D5AD87A007554EF /* JJHWidgetViewController.swift */; };
+		FA9FFCCA1D5AE5390070AC41 /* JJH_constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FFCC91D5AE5390070AC41 /* JJH_constant.swift */; };
+		FA9FFCCE1D5AE8D50070AC41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9FFCCD1D5AE8D50070AC41 /* UIKit.framework */; };
+		FA9FFCD01D5AE8DE0070AC41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9FFCCF1D5AE8DE0070AC41 /* Foundation.framework */; };
+		FA9FFCD21D5AEB260070AC41 /* JJHLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FFCD11D5AEB260070AC41 /* JJHLabelViewController.swift */; };
+		FA9FFCD41D5AED670070AC41 /* JJHButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FFCD31D5AED670070AC41 /* JJHButtonViewController.swift */; };
+		FA9FFCD61D5AF2340070AC41 /* JJhTextfiledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FFCD51D5AF2340070AC41 /* JJhTextfiledViewController.swift */; };
+		FA9FFCD81D5AF5D30070AC41 /* JJhActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FFCD71D5AF5D30070AC41 /* JJhActivityIndicatorViewController.swift */; };
+		FA9FFCDA1D5B02BD0070AC41 /* JJHCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FFCD91D5B02BD0070AC41 /* JJHCalculatorViewController.swift */; };
+		FA9FFCDF1D5B2AF00070AC41 /* tap_music_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9FFCDD1D5B2AF00070AC41 /* tap_music_normal@2x.png */; };
+		FA9FFCE01D5B2AF00070AC41 /* tap_music_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9FFCDE1D5B2AF00070AC41 /* tap_music_select@2x.png */; };
+		FA9FFCE51D5B2DBA0070AC41 /* JJHVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FFCE41D5B2DBA0070AC41 /* JJHVideoViewController.swift */; };
+		FA9FFCE71D5B2F240070AC41 /* JJHMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FFCE61D5B2F240070AC41 /* JJHMusicViewController.swift */; };
+		FA9FFCE91D5B2F4C0070AC41 /* JJHMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FFCE81D5B2F4C0070AC41 /* JJHMovieViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA0A4C5E1D5C1C8F00C89CA3 /* see you again.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "see you again.mp3"; sourceTree = "<group>"; };
+		FA965E3A1D5AD7C5007554EF /* JJH_learnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJH_learnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA965E3D1D5AD7C5007554EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA965E441D5AD7C5007554EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA965E461D5AD7C5007554EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA965E491D5AD7C5007554EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA965E4B1D5AD7C5007554EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA965E541D5AD87A007554EF /* JJHWidgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJHWidgetViewController.swift; sourceTree = "<group>"; };
+		FA9FFCC91D5AE5390070AC41 /* JJH_constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJH_constant.swift; sourceTree = "<group>"; };
+		FA9FFCCD1D5AE8D50070AC41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA9FFCCF1D5AE8DE0070AC41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA9FFCD11D5AEB260070AC41 /* JJHLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJHLabelViewController.swift; sourceTree = "<group>"; };
+		FA9FFCD31D5AED670070AC41 /* JJHButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJHButtonViewController.swift; sourceTree = "<group>"; };
+		FA9FFCD51D5AF2340070AC41 /* JJhTextfiledViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJhTextfiledViewController.swift; sourceTree = "<group>"; };
+		FA9FFCD71D5AF5D30070AC41 /* JJhActivityIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJhActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		FA9FFCD91D5B02BD0070AC41 /* JJHCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJHCalculatorViewController.swift; sourceTree = "<group>"; };
+		FA9FFCDD1D5B2AF00070AC41 /* tap_music_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tap_music_normal@2x.png"; sourceTree = "<group>"; };
+		FA9FFCDE1D5B2AF00070AC41 /* tap_music_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tap_music_select@2x.png"; sourceTree = "<group>"; };
+		FA9FFCE41D5B2DBA0070AC41 /* JJHVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJHVideoViewController.swift; sourceTree = "<group>"; };
+		FA9FFCE61D5B2F240070AC41 /* JJHMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJHMusicViewController.swift; sourceTree = "<group>"; };
+		FA9FFCE81D5B2F4C0070AC41 /* JJHMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJHMovieViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA965E371D5AD7C5007554EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9FFCD01D5AE8DE0070AC41 /* Foundation.framework in Frameworks */,
+				FA9FFCCE1D5AE8D50070AC41 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0A4C5D1D5C1C8F00C89CA3 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A4C5E1D5C1C8F00C89CA3 /* see you again.mp3 */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		FA965E311D5AD7C5007554EF = {
+			isa = PBXGroup;
+			children = (
+				FA9FFCCF1D5AE8DE0070AC41 /* Foundation.framework */,
+				FA9FFCCD1D5AE8D50070AC41 /* UIKit.framework */,
+				FA965E3C1D5AD7C5007554EF /* JJH_learnSwift */,
+				FA965E3B1D5AD7C5007554EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA965E3B1D5AD7C5007554EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA965E3A1D5AD7C5007554EF /* JJH_learnSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA965E3C1D5AD7C5007554EF /* JJH_learnSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FA965E511D5AD849007554EF /* JJH_widget */,
+				FA9FFCE11D5B2D470070AC41 /* JJH_video */,
+				FA9FFCDB1D5B2AF00070AC41 /* Resource */,
+				FA965E3D1D5AD7C5007554EF /* AppDelegate.swift */,
+				FA965E431D5AD7C5007554EF /* Main.storyboard */,
+				FA9FFCC91D5AE5390070AC41 /* JJH_constant.swift */,
+				FA965E461D5AD7C5007554EF /* Assets.xcassets */,
+				FA965E481D5AD7C5007554EF /* LaunchScreen.storyboard */,
+				FA965E4B1D5AD7C5007554EF /* Info.plist */,
+			);
+			path = JJH_learnSwift;
+			sourceTree = "<group>";
+		};
+		FA965E511D5AD849007554EF /* JJH_widget */ = {
+			isa = PBXGroup;
+			children = (
+				FA965E541D5AD87A007554EF /* JJHWidgetViewController.swift */,
+				FA9FFCD11D5AEB260070AC41 /* JJHLabelViewController.swift */,
+				FA9FFCD31D5AED670070AC41 /* JJHButtonViewController.swift */,
+				FA9FFCD51D5AF2340070AC41 /* JJhTextfiledViewController.swift */,
+				FA9FFCD71D5AF5D30070AC41 /* JJhActivityIndicatorViewController.swift */,
+				FA9FFCD91D5B02BD0070AC41 /* JJHCalculatorViewController.swift */,
+			);
+			path = JJH_widget;
+			sourceTree = "<group>";
+		};
+		FA9FFCDB1D5B2AF00070AC41 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A4C5D1D5C1C8F00C89CA3 /* video */,
+				FA9FFCDC1D5B2AF00070AC41 /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FA9FFCDC1D5B2AF00070AC41 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA9FFCDD1D5B2AF00070AC41 /* tap_music_normal@2x.png */,
+				FA9FFCDE1D5B2AF00070AC41 /* tap_music_select@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FA9FFCE11D5B2D470070AC41 /* JJH_video */ = {
+			isa = PBXGroup;
+			children = (
+				FA9FFCE41D5B2DBA0070AC41 /* JJHVideoViewController.swift */,
+				FA9FFCE61D5B2F240070AC41 /* JJHMusicViewController.swift */,
+				FA9FFCE81D5B2F4C0070AC41 /* JJHMovieViewController.swift */,
+			);
+			name = JJH_video;
+			path = JJH_Video;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA965E391D5AD7C5007554EF /* JJH_learnSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA965E4E1D5AD7C5007554EF /* Build configuration list for PBXNativeTarget "JJH_learnSwift" */;
+			buildPhases = (
+				FA965E361D5AD7C5007554EF /* Sources */,
+				FA965E371D5AD7C5007554EF /* Frameworks */,
+				FA965E381D5AD7C5007554EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJH_learnSwift;
+			productName = JJH_learnSwift;
+			productReference = FA965E3A1D5AD7C5007554EF /* JJH_learnSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA965E321D5AD7C5007554EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.TongHaoDevelopment;
+				TargetAttributes = {
+					FA965E391D5AD7C5007554EF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FA965E351D5AD7C5007554EF /* Build configuration list for PBXProject "JJH_learnSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA965E311D5AD7C5007554EF;
+			productRefGroup = FA965E3B1D5AD7C5007554EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA965E391D5AD7C5007554EF /* JJH_learnSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA965E381D5AD7C5007554EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA965E4A1D5AD7C5007554EF /* LaunchScreen.storyboard in Resources */,
+				FA9FFCDF1D5B2AF00070AC41 /* tap_music_normal@2x.png in Resources */,
+				FA9FFCE01D5B2AF00070AC41 /* tap_music_select@2x.png in Resources */,
+				FA965E471D5AD7C5007554EF /* Assets.xcassets in Resources */,
+				FA965E451D5AD7C5007554EF /* Main.storyboard in Resources */,
+				FA0A4C5F1D5C1C8F00C89CA3 /* see you again.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA965E361D5AD7C5007554EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9FFCD81D5AF5D30070AC41 /* JJhActivityIndicatorViewController.swift in Sources */,
+				FA9FFCE51D5B2DBA0070AC41 /* JJHVideoViewController.swift in Sources */,
+				FA9FFCD41D5AED670070AC41 /* JJHButtonViewController.swift in Sources */,
+				FA9FFCE91D5B2F4C0070AC41 /* JJHMovieViewController.swift in Sources */,
+				FA9FFCE71D5B2F240070AC41 /* JJHMusicViewController.swift in Sources */,
+				FA965E3E1D5AD7C5007554EF /* AppDelegate.swift in Sources */,
+				FA9FFCD61D5AF2340070AC41 /* JJhTextfiledViewController.swift in Sources */,
+				FA9FFCDA1D5B02BD0070AC41 /* JJHCalculatorViewController.swift in Sources */,
+				FA9FFCD21D5AEB260070AC41 /* JJHLabelViewController.swift in Sources */,
+				FA9FFCCA1D5AE5390070AC41 /* JJH_constant.swift in Sources */,
+				FA965E551D5AD87A007554EF /* JJHWidgetViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA965E431D5AD7C5007554EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA965E441D5AD7C5007554EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA965E481D5AD7C5007554EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA965E491D5AD7C5007554EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA965E4C1D5AD7C5007554EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA965E4D1D5AD7C5007554EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA965E4F1D5AD7C5007554EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJH_learnSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TongHaoDevelopment.JJH-learnSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA965E501D5AD7C5007554EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJH_learnSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TongHaoDevelopment.JJH-learnSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA965E351D5AD7C5007554EF /* Build configuration list for PBXProject "JJH_learnSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA965E4C1D5AD7C5007554EF /* Debug */,
+				FA965E4D1D5AD7C5007554EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA965E4E1D5AD7C5007554EF /* Build configuration list for PBXNativeTarget "JJH_learnSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA965E4F1D5AD7C5007554EF /* Debug */,
+				FA965E501D5AD7C5007554EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA965E321D5AD7C5007554EF /* Project object */;
+}
